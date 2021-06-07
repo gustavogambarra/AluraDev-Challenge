@@ -1,0 +1,87 @@
+.code__editor {
+    width: 54%;
+}
+
+.code__editor__background {
+    width: 100%;
+    height: 366px;
+    background-color: var(--blue-editor-background);
+    border-radius: 8px;
+    padding: 4.5%;
+}
+
+.code__editor__window {
+    width: 100%;
+    height: 100%;
+    background-color: var(--dark-gray);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.code__editor__window__toolbar {
+    width: 100%;
+    height: 12%;
+}
+
+.toolbar--red-circle {
+    width: 12px;
+    height: 12px;
+    background-color: var(--mac-red);
+    border-radius: 50%;
+    display: inline-block;
+    margin: 16px 0 0 16px;
+}
+.toolbar--yellow-circle {
+    width: 12px;
+    height: 12px;
+    background-color: var(--mac-yellow);
+    border-radius: 50%;
+    display: inline-block;
+    margin: 16px 0 0 4px;
+}
+.toolbar--green-circle {
+    width: 12px;
+    height: 12px;
+    background-color: var(--mac-green);
+    border-radius: 50%;
+    display: inline-block;
+    margin: 16px 0 0 4px;
+}
+
+.code__editor_window__input {
+    width: 100%;
+    height: 88%;
+    padding: 2.5%;
+}
+
+.code__editor_window__input textarea{
+    background: var(--dark-gray);
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    resize: none;
+    color: #FFFFFF;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.9rem;
+}
+
+.highlight-button {
+    margin-top: 2rem;
+    width: 100%;
+    height: 56px;
+    background: rgba(80, 129, 251, 0.08);
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1023px){
+    .code__editor {
+        width: 100%;
+    }
+}

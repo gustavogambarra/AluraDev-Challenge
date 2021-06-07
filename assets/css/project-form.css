@@ -1,0 +1,101 @@
+.project__form {
+    width: 23%;
+}
+
+.project__form__container {
+    margin-left: 11.6%;
+}
+
+.project__form__input {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.project__form__input__description {
+    height: 80px;
+    box-sizing: border-box;
+    padding: 1rem;
+    margin-bottom: 2.5rem;
+    resize: vertical;
+}
+
+.project__form__input__option {
+    background-color: #A6A6A6;
+    outline: none;
+}
+
+.color__selector__input{
+    width: 100%;
+    height: 56px;
+    background: var(--dark-blue-background);
+    padding: 4px;
+    border-radius: 8px;
+    border: #FFFFFF 1px solid;
+}
+
+.save__button {
+    margin-top: 2rem;
+    height: 56px;
+    border: none;
+    border-radius: 8px;
+    background: #5081FB;
+    font-size: 1rem;
+    color: var(--dark-blue-background);
+}
+
+@media screen and (max-width: 1023px){
+    .project__form {
+        width: 100%;
+    }
+
+    .project__form__container {
+        margin: 2.5rem 0;
+    }
+
+    .project__form__customize {
+        width: 100%;
+        display: flex;
+    }
+
+    .language-selector {
+        width: 49%;
+    }
+
+    .color__selector {
+        width: 49%;
+        margin-left: 2%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .project__form__customize {
+        display: block;
+    }
+
+    .language-selector {
+        width: 100%;
+    }
+
+    .color__selector {
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
