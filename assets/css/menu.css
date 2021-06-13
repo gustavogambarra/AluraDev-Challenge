@@ -17,6 +17,27 @@
     color: #FFFFFF;
 }
 
+.item-inactive {
+    opacity: 0.4;
+}
+
+.item-inactive:hover {
+    opacity: 0.8;
+}
+
+.icon-active {
+    padding: 12px;
+    border-radius: 16px;
+    background-color: var(--blue-active-icon);
+}
+
+.icon-inactive {
+    padding: 12px;
+    border-radius: 16px;
+    background: rgba(80, 129, 251, 0.4);
+    /* opacity: 0.16; */
+}
+
 .nav__menu__item a span {
     margin-left: 1rem;
 }
